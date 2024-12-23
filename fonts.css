@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "stetm";
+    src: url(./fonts/AA\ Stetica\ Medium.otf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "stetb";
+    src: url(./fonts/AA\ Stetica\ Bold.otf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "stet";
+    src: url(./fonts/AA\ Stetica\ Regular.otf);
+    font-weight: 300;
+    font-style: normal;
+}

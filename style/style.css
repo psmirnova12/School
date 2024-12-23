@@ -1,0 +1,402 @@
+@import url("../fonts.css");
+
+* {
+    font-family: "stet";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'stet';
+    font-size: 30px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-body-tertiary{
+    background-color: #455169 !important;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+svg{
+    fill: white;
+}
+
+.btn{
+    color: white;
+}
+
+.navbar .container .collapse button{
+    border: 2px solid white;
+}
+
+.navbar .container .collapse button:hover{
+    background-color: white;
+    color: #455169;
+}
+
+nav .container .navbar-toggler svg{
+    width: 80%;
+    fill: white;
+}
+
+.navbar-toggler{
+    width: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main .container .foto .logo svg {
+    width: 13%;
+    margin: 2% 2%;
+}
+
+.main {
+    background-image: url(../img/XXL_height.webp);
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+
+
+.navbar .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap !important;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dropdown-item{
+    background-color: #455169;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    background-color: #455169;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-item:hover{
+    transition: 0.5s;
+    background-color: #96a5b3;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+
+
+
+
+.osnova .container .spisok{
+    width: 25%;
+}
+
+.accordion-item:last-of-type{
+    border: none;
+}
+.accordion-item:not(:first-of-type){
+    border: none;
+}
+
+.osnova .container .spisok .accordion a{
+    text-decoration: none;
+    color: #66737c;
+    font-family: 'stetm';
+}
+
+.osnova .container .spisok .accordion a:hover{
+
+    color: #27313f;
+    transition: 0.5s;
+}
+
+.osnova .container .spisok .accordion .accordion-body a{
+    text-decoration: none;
+    color: #66737c;
+    font-family: 'stetm';
+}
+
+.osnova .container .spisok .accordion .accordion-body a:hover{
+    color: #27313f;
+    transition: 0.5s;
+}
+
+.osnova .container .spisok .accordion button{
+    color: #66737c;
+    background-color: #dfdfdf;
+    font-family: 'stetm';
+    transition: 0.5s;
+    
+}
+
+.osnova .container .spisok .accordion button:hover{
+    transition: 0.5s;
+    color: #27313f;
+    
+}
+
+.osnova .container .spisok .accordion .accordion-collapse{
+    background-color: #ececec;
+}
+
+
+
+
+
+
+
+.osnova .container .infa{
+    width: 72%;
+    margin-left: 3%;
+}
+
+.osnova .container{
+    display: flex;
+}
+
+.osnova .container .text h2{
+    font-size: 22px;
+    font-family: 'stetb' !important;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.osnova .container .text h3{
+    font-size: 18px;
+    font-family: 'stetm';
+    margin-top: 2%;
+}
+
+.osnova .container .text p{
+    font-size: 14px;
+    margin-top: 1%;
+}
+
+.osnova .container .text a{
+    font-size: 14px;
+    text-decoration: none !important;
+    color: black;
+    transition: 0.5s;
+}
+
+.osnova .container .text a:hover{
+    font-size: 18px;
+    text-decoration: underline !important;
+    color: black;
+    transition: 0.5s;
+}
+
+.osnova .container .foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.osnova .container .foto img{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #455169;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .spisok{
+        width: 35% !important;
+    }
+
+    .infa{
+        width: 62% !important;
+    }
+    
+    .navbar .container{
+        justify-content: space-between;
+    }
+
+    .navbar-toggler{
+        border: 2px solid white;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+
+    .main .container .foto .logo svg {
+        width: 20%;
+    }
+
+    .main{
+        height: 350px;
+    }
+
+    nav .container .navbar-toggler svg{
+        width: 110%;
+    }
+
+    .spisok{
+        width: 40% !important;
+    }
+
+    .infa{
+        width: 57% !important;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    .main .container .foto .logo svg {
+        width: 20%;
+    }
+
+    footer .foot .container .logo img {
+        width: 35%;
+    }
+
+    .navbar-brand {
+        font-size: 12px !important;
+    }
+
+    nav svg {
+        width: 10%;
+    }
+
+    .navbar .container button svg {
+        width: 100%;
+    }
+
+    footer .foot .container .text p{
+        font-size: 8px;
+    }
+
+    .club .container .heading h2{
+        font-size: 19px;
+    }
+
+    .club .container a{
+        font-size: 12px;
+    }
+
+    .main{
+        height: 300px;
+    }
+
+    nav .container .navbar-toggler{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .container .navbar-toggler svg{
+        width: 300%;
+    }
+
+    .osnova .container .spisok .accordion button{
+        font-size: 12px;
+    }
+
+    .osnova .container .text h2{
+        font-size: 19px;
+    }
+
+    .osnova .container .text h3{
+        font-size: 16px;
+    }
+
+    .osnova .container .text p{
+        font-size: 12px;
+    }
+
+    .osnova .container .text h3{
+        font-size: 14px;
+    }
+
+    .osnova .container .text h3{
+        font-size: 12px;
+    }
+
+    nav .container .navbar-toggler{
+        width: 10%;
+    }
+
+    nav .container .navbar-toggler svg{
+        width: 200%;
+    }
+
+    .accordion-button::after{
+        width: 0%;
+    }
+
+    .osnova .container .spisok .accordion .accordion-body a{
+        font-size: 12px;
+    }
+
+
+
+}
