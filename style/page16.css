@@ -1,0 +1,682 @@
+@import url("../fonts.css");
+
+* {
+    font-family: "stet";
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'stet';
+    font-size: 30px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-body-tertiary{
+    background-color: #455169 !important;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+svg{
+    fill: white;
+}
+
+.btn{
+    color: white;
+}
+
+.navbar .container .collapse button{
+    border: 2px solid white;
+}
+
+.navbar .container .collapse button:hover{
+    background-color: white;
+    color: #455169;
+}
+
+nav .container .navbar-toggler svg{
+    width: 80%;
+    fill: white;
+}
+
+.navbar-toggler{
+    width: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main .container .foto .logo svg {
+    width: 13%;
+    margin: 2% 2%;
+}
+
+.main {
+    background-image: url(../img/XXL_height.webp);
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+
+
+.navbar .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap !important;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dropdown-item{
+    background-color: #455169;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    background-color: #455169;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-item:hover{
+    transition: 0.5s;
+    background-color: #96a5b3;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+
+
+
+
+.osnova .container .spisok{
+    width: 25%;
+}
+
+.accordion-item:last-of-type{
+    border: none;
+}
+.accordion-item:not(:first-of-type){
+    border: none;
+}
+
+.osnova .container .spisok .accordion a{
+    text-decoration: none;
+    color: #66737c;
+    font-family: 'stetm';
+}
+
+.osnova .container .spisok .accordion a:hover{
+
+    color: #27313f;
+    transition: 0.5s;
+}
+
+.osnova .container .spisok .accordion .accordion-body a{
+    text-decoration: none;
+    color: #66737c;
+    font-family: 'stetm';
+}
+
+.osnova .container .spisok .accordion .accordion-body a:hover{
+    color: #27313f;
+    transition: 0.5s;
+}
+
+.osnova .container .spisok .accordion button{
+    color: #66737c;
+    background-color: #dfdfdf;
+    font-family: 'stetm';
+    transition: 0.5s;
+    
+}
+
+.osnova .container .spisok .accordion button:hover{
+    transition: 0.5s;
+    color: #27313f;
+    
+}
+
+.osnova .container .spisok .accordion .accordion-collapse{
+    background-color: #ececec;
+}
+
+
+
+
+
+
+
+.osnova .container .infa{
+    width: 72%;
+    margin-left: 3%;
+}
+
+.osnova .container{
+    display: flex;
+}
+
+.osnova .container .heading h2{
+    font-size: 22px;
+    font-family: 'stetb' !important;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.osnova .container .infa .text p{
+    font-size: 14px;
+}
+
+.osnova .container .link h3 {
+    font-size: 16px;
+    font-family: 'stetm';
+    text-align: center;
+}
+
+.osnova .container .z {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    font-family: 'stetm';
+}
+
+.osnova .container a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.osnova .container a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.osnova .container .link{
+    margin-bottom: 2%;
+}
+
+.osnova .container .link p {
+    font-size: 12px;
+    color: #696969;
+}
+
+.osnova .container .x {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    color: #4e4e4e;
+}
+
+.osnova .container .diary .link{
+    font-size: 16px;
+    font-family: 'stetm';
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+.osnova .container .diary .link:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.osnova .container .diary .prost{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.osnova .container .diary .prost:hover{
+    font-size: 14px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.osnova .container .diary{
+    text-align: center;
+}
+
+.osnova .container .txt p{
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+
+}
+
+.osnova .container .txt a{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.osnova .container .help h3{
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.osnova .container .help p{
+    font-size: 14px;
+    margin-bottom: -1px;
+    text-align: center;
+}
+
+.osnova .container .help .org{
+    margin-top: 1%;
+}
+
+.osnova .container .help .org .nuj{
+    text-align: center;
+}
+
+.osnova .container .help .org .nuj{
+    margin-bottom: 1%;
+}
+
+.osnova .container .dan h4{
+    font-size: 15px;
+    text-align: center;
+}
+
+.osnova .container .card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    border: none;
+    margin-top: 2%;
+}
+
+.osnova .container .card .foto{
+    width: 40%;
+    display: flex;justify-content: center;
+}
+
+.osnova .container .card .foto img{
+    width: 90%;
+}
+
+.osnova .container .card .text{
+    width: 59%;
+    text-align: left;
+}
+
+.osnova .container .card .text p{
+    text-align: start;
+}
+
+.osnova .container .card1{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    
+}
+
+.osnova .container .card1 .foto{
+    width: 40%;
+    display: flex;justify-content: center;
+}
+
+.osnova .container .card1 .foto img{
+    width: 90%;
+}
+
+.osnova .container .card1 .text{
+    width: 59%;
+    text-align: left;
+}
+
+.osnova .container .card1 .text p{
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #455169;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .spisok{
+        width: 35% !important;
+    }
+
+    .infa{
+        width: 62% !important;
+    }
+    
+    .navbar .container{
+        justify-content: space-between;
+    }
+
+    .navbar-toggler{
+        border: 2px solid white;
+    }
+
+    .osnova .container .card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .osnova .container .card .foto{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .osnova .container .card .text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .osnova .container .card .text p{
+        text-align: center;
+    }
+
+    .osnova .container .card1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .osnova .container .card1 .foto{
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .osnova .container .card1 .text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .osnova .container .card1 .text p{
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+
+    .main .container .foto .logo svg {
+        width: 20%;
+    }
+
+    .main{
+        height: 350px;
+    }
+
+    nav .container .navbar-toggler svg{
+        width: 110%;
+    }
+
+    .spisok{
+        width: 40% !important;
+    }
+
+    .infa{
+        width: 57% !important;
+    }
+
+    .osnova .container .spisok .accordion button{
+        font-size: 14px;
+    }
+
+    .osnova .container .spisok .accordion a{
+        font-size: 14px;
+    }
+
+    .osnova .container .heading h2{
+        font-size: 20px;
+    }
+
+    .navbar-brand{
+        font-size: 16px;
+    }
+
+    .osnova .container .link a{
+        font-size: 13px;
+    }
+
+    .osnova .container .infa .text p{
+        font-size: 13px;
+    }
+
+    .osnova .container .link h3{
+        font-size: 15px;
+    }
+
+    .osnova .container .link p{
+        font-size: 11px;
+    }
+
+    .osnova .container .link .x{
+        font-size: 11px;
+    }
+
+    .osnova .container .diary .link{
+        font-size: 15px;
+    }
+
+    .osnova .container .diary .prost{
+        font-size: 13px;
+    }
+
+    .osnova .container .txt p{
+        font-size: 13px;
+    }
+
+    .osnova .container .txt a{
+        font-size: 13px;
+    }
+
+    .osnova .container .help h3{
+        font-size: 15px;
+    }
+
+    .osnova .container .help p{
+        font-size: 13px;
+    }
+
+    .osnova .container a{
+        font-size: 13px;
+    }
+
+    .osnova .container .dan h4{
+        font-size: 14px;
+    }
+
+    
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    .main .container .foto .logo svg {
+        width: 20%;
+    }
+
+    .navbar-brand {
+        font-size: 12px !important;
+    }
+
+    nav svg {
+        width: 10%;
+    }
+
+    .navbar .container button svg {
+        width: 100%;
+    }
+
+    .main{
+        height: 300px;
+    }
+
+    nav .container .navbar-toggler{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .container .navbar-toggler svg{
+        width: 300%;
+    }
+
+    .osnova .container .spisok .accordion button{
+        font-size: 12px;
+    }
+
+    .osnova .container .heading h2{
+        font-size: 19px;
+    }
+
+    nav .container .navbar-toggler{
+        width: 10%;
+    }
+
+    nav .container .navbar-toggler svg{
+        width: 200%;
+    }
+
+    .accordion-button::after{
+        width: 0%;
+    }
+
+    .osnova .container .spisok .accordion .accordion-body a{
+        font-size: 12px;
+    }
+
+    .osnova .container .spisok .accordion a{
+        font-size: 12px;
+    }
+
+    .osnova .container .link a{
+        font-size: 12px;
+    }
+
+    .osnova .container .infa .text p{
+        font-size: 12px;
+    }
+
+    .osnova .container .link h3{
+        font-size: 14px;
+    }
+
+    .osnova .container .link .x{
+        font-size: 10px;
+    }
+
+    .osnova .container .link p{
+        font-size: 10px;
+    }
+
+    .osnova .container .diary .link{
+        font-size: 14px;
+    }
+
+    .osnova .container .diary .prost{
+        font-size: 12px;
+    }
+
+    .osnova .container .txt p{
+        font-size: 12px;
+    }
+
+    .osnova .container .txt a{
+        font-size: 12px;
+    }
+
+    .osnova .container .help h3{
+        font-size: 14px;
+    }
+
+    .osnova .container .help h3{
+        font-size: 13px;
+    }
+
+    .osnova .container .help p{
+        font-size: 12px;
+    }
+
+    .osnova .container a{
+        font-size: 12px;
+    }
+
+    .osnova .container .dan h4{
+        font-size: 13px;
+    }
+
+    
+
+
+
+}

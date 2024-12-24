@@ -184,65 +184,66 @@ nav .container .navbar-toggler svg{
     display: flex;
 }
 
-.osnova .container .text h2{
-    font-size: 22px;
-    font-family: 'stetb' !important;
-    text-align: center;
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-.osnova .container .text h3{
-    font-size: 18px;
-    font-family: 'stetm';
-    margin-top: 2%;
-}
-
-.osnova .container .text p{
-    font-size: 14px;
-    margin-top: 1%;
-}
-
-.osnova .container .text a{
+.osnova .container .link a{
     font-size: 14px;
     text-decoration: none !important;
     color: black;
     transition: 0.5s;
+    text-align: center;
 }
 
-.osnova .container .text a:hover{
+.osnova .container .link a:hover{
     font-size: 14px;
     text-decoration: underline !important;
     color: black;
     transition: 0.5s;
 }
 
-.osnova .container .foto{
+.osnova .container .heading h2{
+    font-size: 22px;
+    font-family: 'stetb' !important;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 15%;
+}
+
+.osnova .container .infa .text p{
+    font-size: 16px;
+    font-family: 'stetm';
+    margin-top: 3%;
+}
+
+.osnova .container .infa{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     align-items: center;
 }
 
-.osnova .container .foto img{
+.osnova .container .infa img{
     width: 90%;
-    margin-bottom: 2%;
 }
 
-.osnova .container .txt{
-    margin-bottom: 5% !important;
+.osnova .container .link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.osnova .container .knop img{
-    margin-bottom: 1%;
+.osnova .container .link .c{
+    width: 20%;
 }
 
-.osnova .container .knop .l{
-    width: 43%;
+.osnova .container .link img{
+        width: 80%;
 }
 
-.osnova .container .knop .k{
-    width: 31%;
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 
@@ -290,6 +291,9 @@ footer{
     .navbar-toggler{
         border: 2px solid white;
     }
+    iframe{
+        height: 300px;
+    }
 }
 
 
@@ -328,25 +332,29 @@ footer{
         font-size: 14px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 20px;
-    }
-
-    .osnova .container .text p{
-        font-size: 13px;
-    }
-
-    .osnova .container .text h3{
-        font-size: 17px;
-    }
-
-    .osnova .container .text a{
-        font-size: 13px;
     }
 
     .navbar-brand{
         font-size: 16px;
     }
+
+    .osnova .container .link a{
+        font-size: 13px;
+    }
+
+    .osnova .container .infa .text p{
+        font-size: 15px;
+    }
+
+    iframe{
+        height: 200px;
+    }
+
+    
+
+    
 }
 
 
@@ -363,10 +371,6 @@ footer{
         width: 20%;
     }
 
-    footer .foot .container .logo img {
-        width: 35%;
-    }
-
     .navbar-brand {
         font-size: 12px !important;
     }
@@ -377,18 +381,6 @@ footer{
 
     .navbar .container button svg {
         width: 100%;
-    }
-
-    footer .foot .container .text p{
-        font-size: 8px;
-    }
-
-    .club .container .heading h2{
-        font-size: 19px;
-    }
-
-    .club .container a{
-        font-size: 12px;
     }
 
     .main{
@@ -409,16 +401,8 @@ footer{
         font-size: 12px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 19px;
-    }
-
-    .osnova .container .text h3{
-        font-size: 16px;
-    }
-
-    .osnova .container .text p{
-        font-size: 12px;
     }
 
     nav .container .navbar-toggler{
@@ -433,16 +417,25 @@ footer{
         width: 0%;
     }
 
-    .osnova .container .heading h2{
-        font-size: 19px;
-    }
-
     .osnova .container .spisok .accordion .accordion-body a{
         font-size: 12px;
     }
 
     .osnova .container .spisok .accordion a{
         font-size: 12px;
+    }
+
+    .osnova .container .link a{
+        font-size: 12px;
+    }
+
+    .osnova .container .infa .text p{
+        font-size: 14px;
+    }
+
+    iframe{
+        width: 90%;
+        height: 150px;
     }
 
 

@@ -184,7 +184,7 @@ nav .container .navbar-toggler svg{
     display: flex;
 }
 
-.osnova .container .text h2{
+.osnova .container .heading h2{
     font-size: 22px;
     font-family: 'stetb' !important;
     text-align: center;
@@ -192,58 +192,67 @@ nav .container .navbar-toggler svg{
     margin-top: 2%;
 }
 
-.osnova .container .text h3{
+.osnova .container .infa .text p{
+    font-size: 14px;
+}
+
+.osnova .container h2{
     font-size: 18px;
+    text-align: center;
+
     font-family: 'stetm';
-    margin-top: 2%;
+
 }
 
-.osnova .container .text p{
+.osnova .container .text h4{
+    font-size: 16px;
+}
+
+.osnova .container .text  h3{
+    font-size: 16px;
+}
+
+.osnova .container .text  p{
     font-size: 14px;
-    margin-top: 1%;
 }
 
-.osnova .container .text a{
-    font-size: 14px;
-    text-decoration: none !important;
-    color: black;
-    transition: 0.5s;
-}
-
-.osnova .container .text a:hover{
-    font-size: 14px;
-    text-decoration: underline !important;
-    color: black;
-    transition: 0.5s;
-}
-
-.osnova .container .foto{
+.osnova .container .card{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.osnova .container .foto img{
-    width: 90%;
+    flex-direction: row;
+    border: none;
     margin-bottom: 2%;
 }
 
-.osnova .container .txt{
-    margin-bottom: 5% !important;
+.osnova .container .card .foto{
+   width: 50%;
+   display: flex;
+
+   justify-content: center;
 }
 
-.osnova .container .knop img{
-    margin-bottom: 1%;
+.osnova .container .card .foto img{
+    width: 70%;
 }
 
-.osnova .container .knop .l{
-    width: 43%;
-}
+.osnova .container .card .text{
+    width: 50%;
+ }
 
-.osnova .container .knop .k{
-    width: 31%;
-}
+ .osnova .container .infa p{
+    font-size: 14px;
+ }
+
+ .osnova .container .infa a{
+    font-size: 14px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: #000;
+ }
+
+ .osnova .container .infa a:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+ }
 
 
 
@@ -290,6 +299,29 @@ footer{
     .navbar-toggler{
         border: 2px solid white;
     }
+
+    .osnova .container .card{
+        flex-direction: column;
+    }
+
+    .osnova .container .card .foto img{
+        width: 60%;
+    }
+
+    .osnova .container .card .foto{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+
+    .osnova .container .card .text{
+        width: 100%;
+        text-align: center;
+    }
+
+
 }
 
 
@@ -328,25 +360,35 @@ footer{
         font-size: 14px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 20px;
-    }
-
-    .osnova .container .text p{
-        font-size: 13px;
-    }
-
-    .osnova .container .text h3{
-        font-size: 17px;
-    }
-
-    .osnova .container .text a{
-        font-size: 13px;
     }
 
     .navbar-brand{
         font-size: 16px;
     }
+
+    .osnova .container .link a{
+        font-size: 13px;
+    }
+
+    .osnova .container .infa .text p{
+        font-size: 13px;
+    }
+
+    .osnova .container h2{
+        font-size: 17px;
+    }
+
+    .osnova .container .text h4{
+        font-size: 15px;
+    }
+
+    .osnova .container .text h3{
+        font-size: 15px;
+    }
+
+    
 }
 
 
@@ -363,10 +405,6 @@ footer{
         width: 20%;
     }
 
-    footer .foot .container .logo img {
-        width: 35%;
-    }
-
     .navbar-brand {
         font-size: 12px !important;
     }
@@ -377,18 +415,6 @@ footer{
 
     .navbar .container button svg {
         width: 100%;
-    }
-
-    footer .foot .container .text p{
-        font-size: 8px;
-    }
-
-    .club .container .heading h2{
-        font-size: 19px;
-    }
-
-    .club .container a{
-        font-size: 12px;
     }
 
     .main{
@@ -409,16 +435,8 @@ footer{
         font-size: 12px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 19px;
-    }
-
-    .osnova .container .text h3{
-        font-size: 16px;
-    }
-
-    .osnova .container .text p{
-        font-size: 12px;
     }
 
     nav .container .navbar-toggler{
@@ -433,16 +451,32 @@ footer{
         width: 0%;
     }
 
-    .osnova .container .heading h2{
-        font-size: 19px;
-    }
-
     .osnova .container .spisok .accordion .accordion-body a{
         font-size: 12px;
     }
 
     .osnova .container .spisok .accordion a{
         font-size: 12px;
+    }
+
+    .osnova .container .link a{
+        font-size: 12px;
+    }
+
+    .osnova .container .infa .text p{
+        font-size: 12px;
+    }
+
+    .osnova .container h2{
+        font-size: 16px;
+    }
+
+    .osnova .container .text h4{
+        font-size: 14px;
+    }
+
+    .osnova .container .text h3{
+        font-size: 14px;
     }
 
 

@@ -211,7 +211,7 @@ nav .container .navbar-toggler svg{
 }
 
 .osnova .container .text a:hover{
-    font-size: 14px;
+    font-size: 18px;
     text-decoration: underline !important;
     color: black;
     transition: 0.5s;
@@ -219,33 +219,26 @@ nav .container .navbar-toggler svg{
 
 .osnova .container .foto{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .osnova .container .foto img{
     width: 90%;
+}
+
+.osnova .container .heading h2{
+    font-size: 22px;
+    font-family: 'stetb' !important;
+    text-align: center;
     margin-bottom: 2%;
+    margin-top: 2%;
 }
 
-.osnova .container .txt{
-    margin-bottom: 5% !important;
+.osnova .container .text p{
+    font-size: 14px;
+    margin-top: 1%;
 }
-
-.osnova .container .knop img{
-    margin-bottom: 1%;
-}
-
-.osnova .container .knop .l{
-    width: 43%;
-}
-
-.osnova .container .knop .k{
-    width: 31%;
-}
-
-
 
 
 
@@ -328,7 +321,7 @@ footer{
         font-size: 14px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 20px;
     }
 
@@ -336,17 +329,11 @@ footer{
         font-size: 13px;
     }
 
-    .osnova .container .text h3{
-        font-size: 17px;
-    }
-
-    .osnova .container .text a{
-        font-size: 13px;
-    }
-
     .navbar-brand{
         font-size: 16px;
     }
+
+    
 }
 
 
@@ -383,14 +370,6 @@ footer{
         font-size: 8px;
     }
 
-    .club .container .heading h2{
-        font-size: 19px;
-    }
-
-    .club .container a{
-        font-size: 12px;
-    }
-
     .main{
         height: 300px;
     }
@@ -409,7 +388,7 @@ footer{
         font-size: 12px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 19px;
     }
 
@@ -418,6 +397,14 @@ footer{
     }
 
     .osnova .container .text p{
+        font-size: 12px;
+    }
+
+    .osnova .container .text h3{
+        font-size: 14px;
+    }
+
+    .osnova .container .text h3{
         font-size: 12px;
     }
 
@@ -431,10 +418,6 @@ footer{
 
     .accordion-button::after{
         width: 0%;
-    }
-
-    .osnova .container .heading h2{
-        font-size: 19px;
     }
 
     .osnova .container .spisok .accordion .accordion-body a{

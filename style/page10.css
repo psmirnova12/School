@@ -184,7 +184,13 @@ nav .container .navbar-toggler svg{
     display: flex;
 }
 
-.osnova .container .text h2{
+.osnova .container .link a{
+    font-size: 14px;
+    text-decoration: none !important;
+    color: black;
+}
+
+.osnova .container .heading h2{
     font-size: 22px;
     font-family: 'stetb' !important;
     text-align: center;
@@ -192,60 +198,9 @@ nav .container .navbar-toggler svg{
     margin-top: 2%;
 }
 
-.osnova .container .text h3{
-    font-size: 18px;
-    font-family: 'stetm';
-    margin-top: 2%;
-}
-
-.osnova .container .text p{
+.osnova .container .infa .link p{
     font-size: 14px;
-    margin-top: 1%;
 }
-
-.osnova .container .text a{
-    font-size: 14px;
-    text-decoration: none !important;
-    color: black;
-    transition: 0.5s;
-}
-
-.osnova .container .text a:hover{
-    font-size: 14px;
-    text-decoration: underline !important;
-    color: black;
-    transition: 0.5s;
-}
-
-.osnova .container .foto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.osnova .container .foto img{
-    width: 90%;
-    margin-bottom: 2%;
-}
-
-.osnova .container .txt{
-    margin-bottom: 5% !important;
-}
-
-.osnova .container .knop img{
-    margin-bottom: 1%;
-}
-
-.osnova .container .knop .l{
-    width: 43%;
-}
-
-.osnova .container .knop .k{
-    width: 31%;
-}
-
-
 
 
 
@@ -328,25 +283,23 @@ footer{
         font-size: 14px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 20px;
-    }
-
-    .osnova .container .text p{
-        font-size: 13px;
-    }
-
-    .osnova .container .text h3{
-        font-size: 17px;
-    }
-
-    .osnova .container .text a{
-        font-size: 13px;
     }
 
     .navbar-brand{
         font-size: 16px;
     }
+
+    .osnova .container .link a{
+        font-size: 13px;
+    }
+
+    .osnova .container .infa .link p{
+        font-size: 13px;
+    }
+
+    
 }
 
 
@@ -363,10 +316,6 @@ footer{
         width: 20%;
     }
 
-    footer .foot .container .logo img {
-        width: 35%;
-    }
-
     .navbar-brand {
         font-size: 12px !important;
     }
@@ -377,18 +326,6 @@ footer{
 
     .navbar .container button svg {
         width: 100%;
-    }
-
-    footer .foot .container .text p{
-        font-size: 8px;
-    }
-
-    .club .container .heading h2{
-        font-size: 19px;
-    }
-
-    .club .container a{
-        font-size: 12px;
     }
 
     .main{
@@ -409,16 +346,8 @@ footer{
         font-size: 12px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 19px;
-    }
-
-    .osnova .container .text h3{
-        font-size: 16px;
-    }
-
-    .osnova .container .text p{
-        font-size: 12px;
     }
 
     nav .container .navbar-toggler{
@@ -433,15 +362,19 @@ footer{
         width: 0%;
     }
 
-    .osnova .container .heading h2{
-        font-size: 19px;
-    }
-
     .osnova .container .spisok .accordion .accordion-body a{
         font-size: 12px;
     }
 
     .osnova .container .spisok .accordion a{
+        font-size: 12px;
+    }
+
+    .osnova .container .link a{
+        font-size: 12px;
+    }
+
+    .osnova .container .infa .link p{
         font-size: 12px;
     }
 

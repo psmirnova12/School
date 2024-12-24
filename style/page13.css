@@ -184,7 +184,7 @@ nav .container .navbar-toggler svg{
     display: flex;
 }
 
-.osnova .container .text h2{
+.osnova .container .heading h2{
     font-size: 22px;
     font-family: 'stetb' !important;
     text-align: center;
@@ -192,59 +192,92 @@ nav .container .navbar-toggler svg{
     margin-top: 2%;
 }
 
-.osnova .container .text h3{
-    font-size: 18px;
+.osnova .container .infa .text p{
+    font-size: 14px;
+}
+
+.osnova .container .myschool h3{
+    font-size: 16px;
     font-family: 'stetm';
-    margin-top: 2%;
+    text-align: center;
 }
 
-.osnova .container .text p{
+.osnova .container .myschool a{
     font-size: 14px;
-    margin-top: 1%;
-}
-
-.osnova .container .text a{
-    font-size: 14px;
-    text-decoration: none !important;
+    text-decoration: none;
     color: black;
     transition: 0.5s;
 }
 
-.osnova .container .text a:hover{
+.osnova .container .myschool a:hover{
     font-size: 14px;
-    text-decoration: underline !important;
-    color: black;
+    text-decoration: underline;
     transition: 0.5s;
 }
 
-.osnova .container .foto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.osnova .container .diary .link{
+    font-size: 16px;
+    font-family: 'stetm';
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
-.osnova .container .foto img{
-    width: 90%;
+.osnova .container{
+    text-align: center;
+}
+
+.osnova .container .diary .link:hover{
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+.osnova .container .diary .prost{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.osnova .container .diary .prost:hover{
+    font-size: 14px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.osnova .container .vk{
     margin-bottom: 2%;
 }
 
-.osnova .container .txt{
-    margin-bottom: 5% !important;
+.osnova .container .vk h3{
+    font-size: 16px;
+    font-family: 'stetm';
+    text-align: center;
+    color: #000;
 }
 
-.osnova .container .knop img{
-    margin-bottom: 1%;
+.osnova .container .vk p{
+    font-size: 14px;
 }
 
-.osnova .container .knop .l{
-    width: 43%;
+.osnova .container .vk img{
+    width: 70%;
+    margin: 0.5% 0;
 }
 
-.osnova .container .knop .k{
-    width: 31%;
+.osnova .container .vk a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 14px;
 }
 
+.osnova .container .vk a:hover{
+    font-size: 14px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
 
 
 
@@ -328,25 +361,47 @@ footer{
         font-size: 14px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 20px;
-    }
-
-    .osnova .container .text p{
-        font-size: 13px;
-    }
-
-    .osnova .container .text h3{
-        font-size: 17px;
-    }
-
-    .osnova .container .text a{
-        font-size: 13px;
     }
 
     .navbar-brand{
         font-size: 16px;
     }
+
+    .osnova .container .infa .text p{
+        font-size: 13px;
+    }
+
+    .osnova .container .myschool h3{
+        font-size: 15px;
+    }
+
+    .osnova .container .myschool a{
+        font-size: 13px;
+    }
+
+    .osnova .container .diary .link{
+        font-size: 15px;
+    }
+
+    .osnova .container .diary .prost{
+        font-size: 13px;
+    }
+
+    .osnova .container .vk h3{
+        font-size: 15px;
+    }
+
+    .osnova .container .vk p{
+        font-size: 13px;
+    }
+
+    .osnova .container .vk a{
+        font-size: 13px;
+    }
+
+    
 }
 
 
@@ -363,10 +418,6 @@ footer{
         width: 20%;
     }
 
-    footer .foot .container .logo img {
-        width: 35%;
-    }
-
     .navbar-brand {
         font-size: 12px !important;
     }
@@ -377,18 +428,6 @@ footer{
 
     .navbar .container button svg {
         width: 100%;
-    }
-
-    footer .foot .container .text p{
-        font-size: 8px;
-    }
-
-    .club .container .heading h2{
-        font-size: 19px;
-    }
-
-    .club .container a{
-        font-size: 12px;
     }
 
     .main{
@@ -409,16 +448,8 @@ footer{
         font-size: 12px;
     }
 
-    .osnova .container .text h2{
+    .osnova .container .heading h2{
         font-size: 19px;
-    }
-
-    .osnova .container .text h3{
-        font-size: 16px;
-    }
-
-    .osnova .container .text p{
-        font-size: 12px;
     }
 
     nav .container .navbar-toggler{
@@ -433,15 +464,47 @@ footer{
         width: 0%;
     }
 
-    .osnova .container .heading h2{
-        font-size: 19px;
-    }
-
     .osnova .container .spisok .accordion .accordion-body a{
         font-size: 12px;
     }
 
     .osnova .container .spisok .accordion a{
+        font-size: 12px;
+    }
+
+    .osnova .container .link a{
+        font-size: 12px;
+    }
+
+    .osnova .container .infa .text p{
+        font-size: 12px;
+    }
+
+    .osnova .container .myschool h3{
+        font-size: 14px;
+    }
+
+    .osnova .container .myschool a{
+        font-size: 12px;
+    }
+
+    .osnova .container .diary .link{
+        font-size: 14px;
+    }
+
+    .osnova .container .diary .prost{
+        font-size: 12px;
+    }
+
+    .osnova .container .vk h3{
+        font-size: 14px !important;
+    }
+
+    .osnova .container .vk p{
+        font-size: 12px;
+    }
+
+    .osnova .container .vk a{
         font-size: 12px;
     }
 
